@@ -15,9 +15,11 @@ namespace NinetyNineBurgalurs
         private TalonSRX rightDrive;
         private TalonSRX leftDrive;
 
+        const int leftID = 0;
+
         public Drive() {
             rightDrive = new TalonSRX(0);
-            leftDrive = new TalonSRX(0);
+            leftDrive = new TalonSRX(leftID);
         }
 
         public void driveController(double vertical, double horizontal)

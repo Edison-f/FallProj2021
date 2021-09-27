@@ -35,8 +35,8 @@
   </PropertyGroup>
   <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
   <ItemGroup>
+    <Compile Include="Arm.cs" />
     <Compile Include="TeleopStateMachine.cs" />
-    <Compile Include="Shooter.cs" />
     <Compile Include="Intake.cs" />
     <Compile Include="Drive.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
